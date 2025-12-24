@@ -25,6 +25,11 @@ int main()
 }
 ```
 OUTPUT:
+
+
 ![WhatsApp Image 2025-12-24 at 9 56 07 PM](https://github.com/user-attachments/assets/734ad1e7-e574-4a11-aba4-29197d9cc3c0)
+
+
 RESULT:
+
   Thus the program to find the float value from the user and to display the same value successfully.
