@@ -1,4 +1,3 @@
-![WhatsApp Image 2025-12-24 at 9 56 07 PM](https://github.com/user-attachments/assets/4ad70d62-762f-45ee-a01f-f77830487eef)Program-1-a
 C-Module 1
 EX_NO-01)a)-Datatypes-Operators
 Date: 24/12/25
