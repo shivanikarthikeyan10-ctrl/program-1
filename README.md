@@ -37,3 +37,13 @@ OUTPUT:
 RESULT:
 
   Thus the program to find the float value from the user and to display the same value successfully.
+
+
+
+
+
+
+
+
+
+
