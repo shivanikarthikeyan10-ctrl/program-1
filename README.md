@@ -98,8 +98,185 @@ OUTPUT:
 RESULT:
 
 
-Thus the program to read A values and check whether the value is greater than and equal to 100 has been executed successfully
+Thus the program to read A values and check whether the value is greater than and equal to 100 has been executed successfully.
 
 
 
 
+
+
+
+
+
+
+Program-1-c
+C-Module 1
+EX_NO-01)c)-Operators & Expressions
+
+
+
+AIM:
+
+
+Write a program to find principle amount based on simple interest, time & rate of interest.
+
+ALGORITHM:
+
+Start the program.
+
+Declare three float variables to store simple interest, time, and rate of interest.
+
+Read the values of simple interest, time, and rate from the user using the scanf function.
+
+Declare a float variable to store the principle amount.
+
+Calculate the principle amount using the formula:
+
+Principle = (Simple Interest) / (Time * Rate) * 100
+Print the principle amount using the printf function with two decimal places.
+
+End the program.
+
+PROGRAM:
+
+```
+#include <stdio.h>
+int main()
+{
+    float sint;
+    float time;
+    float rate;
+    scanf("%f %f %f",&sint,&time,&rate);
+    float pri;
+    pri=sint/(time*rate);
+    pri=pri*100;
+    printf("Principle amount is = %.2f",pri);
+    return 0;
+}
+```
+
+
+OUTPUT:
+
+
+![WhatsApp Image 2025-12-24 at 10 26 49 PM](https://github.com/user-attachments/assets/33feb4b0-8af4-4318-a90c-71ea13daa72b)
+
+
+
+
+
+RESULT:
+
+
+Thus the program to find principle amount based on simple interest, time & rate of interest has been executed successfully.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Program-1-d
+C-Module 1
+EX_NO-01)d)-Conditional Statements
+
+
+AIM:
+
+Write a C program to read a, b values and check whether a equal to b.
+
+ALGORITHM:
+
+Start the program.
+
+Declare two integer variables to store the input values.
+
+Read the two integer values from the user using the scanf function.
+
+Check if the first value is equal to the second value.
+
+a. If true, print "a is equal to b".
+
+b. If false, do nothing (or skip printing).
+
+End the program.
+
+PROGRAM:
+```
+#include <stdio.h>
+int main()
+{
+int a,b;
+scanf("%d %d",&a,&b);
+if(a==b)
+printf("a is equal to b");
+ return 0;   
+}
+```
+
+
+OUTPUT:
+
+
+
+![WhatsApp Image 2025-12-24 at 10 30 31 PM](https://github.com/user-attachments/assets/eed97cef-5a69-413b-9825-3997fcf54766)
+
+
+
+RESULT:
+
+
+Thus the program to read a, b values and check whether a equal to b has been executed successfully.
+
+
+
+
+Program-1-e
+C-Module 1
+EX_NO-01)e)-Datatypes & Operators
+
+
+
+AIM:
+
+Write a C program to find the ASCII value of a given character.
+
+ALGORITHM:
+
+
+Start the program.
+Declare a character variable to store the input character.
+Read the character from the user using the scanf function.
+Print the ASCII value of the character using the printf function.
+End the program.
+
+
+PROGRAM:
+
+```
+#include <stdio.h>
+int main()
+{
+    char ch;
+    scanf("%c",&ch);
+    printf("ASCII value of %c is %d",ch,ch);
+    return 0;
+}
+```
+OUTPUT:
+
+
+![WhatsApp Image 2025-12-24 at 10 32 29 PM](https://github.com/user-attachments/assets/c0e95310-3e0b-4143-bfbf-51bf6e877d1b)
+
+
+RESULT:
+
+
+Thus the program to find the ASCII value of a given character has been executed successfully.
