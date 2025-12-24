@@ -4,6 +4,8 @@ EX_NO-01)a)-Datatypes-Operators
 Date: 24/12/25
 Name: SHIVANI K
 Register Number: 25013585
+
+
 AIM:
 Write a C program to read a float value from the user and to display the same value.
 
@@ -13,6 +15,8 @@ Declare a float variable to store the input value.
 Read the float value from the user using the scanf function.
 Print the float value using the printf function with two decimal places (%.2f).
 End the program.
+
+
 PROGRAM:
 ```
 #include <stdio.h>
